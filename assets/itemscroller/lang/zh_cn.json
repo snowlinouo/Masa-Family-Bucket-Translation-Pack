@@ -6,10 +6,10 @@
 
     "itemscroller.gui.label.recipe_page": "页 %d / %d",
     "itemscroller.gui.label.trades": "交易",
-    "itemscroller.gui.label.trade_uses": "交易使用: %d / %",
+    "itemscroller.gui.label.trade_uses": "交易使用：%d / %",
     
-    	"itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为： §c关闭",
-	"itemscroller.message.toggled_mod_on": "tem Scroller 功能调整为： §a开启",
+    	"itemscroller.message.toggled_mod_off": "Item Scroller 功能调整为：§c关闭",
+	"itemscroller.message.toggled_mod_on": "Item Scroller 功能调整为：§a开启",
 	
 	"enableCraftingFeatures":"Crafting | 制作特性",
 	"Enables scrolling items to and from crafting grids,\nwith a built-in 18 recipe memory.\nHold down the Recipe key to see the stored recipes and\nto change the selection. While holding the Recipe key,\nyou can either scroll or press a number key to change the selection.\nA recipe is stored to the currently selected \"recipe slot\"\n by clicking pick block over a configured crafting output slot.\nThe supported crafting grids must be added to the scrollableCraftingGrids list.":"开启内置共 8 页每页 18 种配方的存储，使得物品可以放置到合成表\n按住 Recipe（配方）的快捷键查看配方列表，您可以滑动滚轮或使用数字键选择配方\n点击配方可以在工作台完成合成，在放置配方达到待命状态时（不取出合成产物）\n按下设定的 storeRecipe（储存配方）快捷键就可以在选定的列表格内进行配方储存（自动覆写）。",
@@ -32,13 +32,13 @@
 	"enableShiftDropItems":"ShiftDrop | shift 丢弃",
 	"Enables dropping all matching items at once by holding\nshift while clicking to drop a stack":"允许通过按住 Shift 键同时丢出一组物品\n从而一次性丢出所有匹配的物品",
 	"enableShiftPlaceItems":"Shift | shift 移动",
-	"Enables moving all matching stacks at once by holding\nshift while placing items to an empty slot":"在将物品放置到一个空槽时，通过按住 shift，\n可以一次移动所有匹配的物品",
+	"Enables moving all matching stacks at once by holding\nshift while placing items to an empty slot":"在将物品放置到一个空槽时，通过按住 Shift，\n可以一次移动所有匹配的物品",
 	"enableVillagerTradeList":"Villager | 村民交易列表",
 	"Render a 1.14-style trade list in villager GUIs":"在村民 GUI 中呈现一个 1.14 风格的交易列表\n（这不是 1.16 吗？？？？？？）",
 	
 	"carpetCtrlQCraftingEnabledOnServer":"carpetCtrlQCrafting | 地毯端 CtrlQ 启用",
 	"Set to true if the server is running the Carpet mod,\nand has the ctrlQCrafting option enabled.\nThis just changes which method Item Scroller uses\nfor the Drop key + Shift + Right click crafting.":"如果服务器正在运行地毯端则设置为开启，\n这将改变物品滚轮整组丢弃的使用方式\n变为 丢弃 + Shift + 右击 丢弃整组",
-	"clientCraftingFixOn1.12":"clientCrafting | 1.12客户端修复",
+	"clientCraftingFixOn1.12":"clientCrafting | 1.12 客户端修复",
 	"Enable updating the crafting recipe output directly on the client side.\nThis fixes the quick/mass crafting and right-click-to-craft-a-stack\nfeatures othrwise being broken in 1.12.":"在客户端直接更新制作配方输出\n这修正了在 1.12 中快速/批量制造和右键点击制造所产生的不可使用的问题。",
 	"craftingRenderRecipeItems":"craftingRenderRecipeItems | 配方显示",
 	"If enabled, then the recipe items are also rendered\nin the crafting recipe view.":"如果启用，那么配方物品也会呈现在制作配方视图中。",
@@ -120,16 +120,16 @@
 
     //20210922更新TAG
 	"packetRateLimit":"packetRateLimit | 最大数据流",
-	"The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled":"当§6[连点限制]§f开启后限制每个 Tick 发送的最大模拟操作数据包的数量",
+	"The limit of sent emulated slot click packets per game tick,\nif 'rateLimitClickPackets' is enabled":"当 §6[连点限制] §f开启后限制每个 Tick 发送的最大模拟操作数据包的数量",
 	"rateLimitClickPackets":"rateLimitClick | 连点限制",
-	"This is meant for compatibility with Spigot servers and similar,\nwhich apply rate limits to packets from the client.\nThis queues up the emulated slot click packets and sends\nthem rate limited over time. The limit per game tick can be set in 'packetRateLimit´.":"这是为了与 Spigot 服务器和类似服务器兼容，\n对来自客户端的数据包发送速率进行限制。\n这将模拟操作的数据包排队，\n并随着时间的推移向它们发送速率受限的数据包。\n每个 Tick 的限制可以在§6[最大数据流]§f中设置",
+	"This is meant for compatibility with Spigot servers and similar,\nwhich apply rate limits to packets from the client.\nThis queues up the emulated slot click packets and sends\nthem rate limited over time. The limit per game tick can be set in 'packetRateLimit´.":"这是为了与 Spigot 服务器和类似服务器兼容，\n对来自客户端的数据包发送速率进行限制。\n这将模拟操作的数据包排队，\n并随着时间的推移向它们发送速率受限的数据包。\n每个 Tick 的限制可以在 §6[最大数据流] §f中设置",
 	"villagerTradeUseGlobalFavorites":"villagerTrade | 交易收藏",
 	"Whether or not global (per-item-type) villager trade\nfavorites should be used.":"该功能开启后，使用 §6[交易优化] §f+ 鼠标中键\n标注的交易项目将会置顶",
 	"villagerTradeListRememberScrollPosition":"villagerTrade | 交易书签",
 	"Remember and restore the last scroll position in the\ntrade list when re-opening the GUI":"该功能开启后，退出村民交易 GUI 时将不会重置滚动条",
 	
 	"enableVillagerTradeFeatures":"VillagerTrade | 交易收藏",
-	"Enable trade favoriting and quick trade features for villagers.\nNote: The Shift + scrolling over the output slot is a separate feature\nand not affected by this option.\nThis option enables middle clicking to mark favorite trades,\nand right clicking on the trade list to fully trade that one trade.":"为村民启用交易收藏和快速交易功能。 \n注意：Shift+在输出槽上滚动是一个单独的功能，不受此选项的影响。 \n此选项允许通过 §6[交易优化] §f+ 单击鼠标中键来标记最喜欢的交易，\n并开启在交易列表上右键单击物品购空物品的功能。",
+	"Enable trade favoriting and quick trade features for villagers.\nNote: The Shift + scrolling over the output slot is a separate feature\nand not affected by this option.\nThis option enables middle clicking to mark favorite trades,\nand right clicking on the trade list to fully trade that one trade.":"为村民启用交易收藏和快速交易功能。 \n注意：Shift + 在输出槽上滚动是一个单独的功能，不受此选项的影响。 \n此选项允许通过 §6[交易优化] §f+ 单击鼠标中键来标记最喜欢的交易，\n并开启在交易列表上右键单击物品购空物品的功能。",
 	
 	"villagerTradeFavorites":"villagerTrade | 交易优化",
 	"Trade everything possible with all the favorited trades\nof the current villager":"该功能为交易收藏功能的前置按键设置\n测试后发现该功能可以一键买空所有收藏的交易内容",
@@ -156,5 +156,5 @@
 	"useRecipeCaching":"massCraft | 使用配方缓存",
 	"Enables caching the last used recipe in the crafting\nrecipe output item fetching code. This can help a lot\nwith lowering CPU usage when mass crafting stuff.":"在合成配方操作获取输出项时的参数中，\n传递缓存中最后使用的配方参数。\n当大量制作物品时，这可以大大降低 CPU 使用率。",
 	
-	"itemscroller.gui.title.configs": "物品滚轮配置汉化——醉梦巅峰（ZMDF）-2022.01.21"
+	"itemscroller.gui.title.configs": "物品滚轮配置汉化——醉梦巅峰（ZMDF）- 2022.01.21"
 }

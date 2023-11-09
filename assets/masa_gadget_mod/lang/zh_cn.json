@@ -4,7 +4,7 @@
   "masa_gadget_mod.gui.button.tab.malilib": "Malilib",
   "masa_gadget_mod.gui.button.tab.minihud": "Minihud",
   "masa_gadget_mod.gui.button.tab.tweakeroo": "Tweakeroo",
-  "masa_gadget_mod.gui.title.configs": "MasaGadget 设置 - 版本: %s",
+  "masa_gadget_mod.gui.title.configs": "MasaGadget 设置 - 版本：%s",
 
   "masa_gadget_mod.config.generic.autoSyncEntityData.name": "自动同步实体数据",
   "masa_gadget_mod.config.generic.autoSyncEntityData.comment": "自动使用 PCA 同步协议来同步实体数据（如村民补货时间，僵尸村民转换时间，怪物是否消失）",
