@@ -737,6 +737,10 @@
 	"Allows using a custom GUI scale for any inventory screen.\nSee Generic -> §ecustomInventoryGuiScale§r for the scale value": "允許使用自訂容器比例。調整參數選單：通用功能 ->§e「自訂容器比例」§r",
 	"disableSkyDarkness": "SkyDarkness | 停用天空黑暗",
 	"Disables the sky darkness below y = 63\n\n(By moving the threshold y to 2 blocks below the bottom of the world instead)": "停用y = 63 以下的天空黑暗\n§e可以理解為靈魂出竅增強§r\n（透過將觸發閾值 y 移動到世界底部以下 2 格）",
+
+	// "20240618更新_1.20.4正式版"
+	"angelBlockPlacementDistance": "angelBlockPlacementDistance | 憑空放置距離",
+	"The distance from the player blocks can be placed in\nthe air when tweakAngelBlock is enabled.\n5 is the maximum the server allows.": "啟用§e憑空放置§r時，玩家可以放置在空中的方塊距離。\n5 是伺服器中0允許的最大值。",
 	
 	"tweakeroo.gui.title.configs": "Tweakeroo 設定介面 | 漢化：醉夢巔峰&新兵Sinbing - 20230619"
 }

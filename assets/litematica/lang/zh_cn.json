@@ -402,7 +402,7 @@
   "litematica.message.schematic_pasted": "在世界上粘贴原理图",
   "litematica.message.schematic_pasted_using_setblock": "原理图粘贴使用 %s 放置命令",
     "litematica.message.schematic_pasted_using_setblock": "使用 §b%s§r setblock 命令粘贴的原理图",
-    "litematica.message.schematic_pasted_using_world_edit": "使用 §b%s§r 创世神 //set 命令粘贴的原理图",
+    "litematica.message.schematic_pasted_using_world_edit": "使用 §b%s§r WorldEdit //set 命令粘贴的原理图",
   "litematica.message.schematic_placement_created": "创建放置「%s」",
   "litematica.message.schematic_preview_cancelled": "预览任务已取消",
   "litematica.message.schematic_read_from_file_success": "加载原理图从文件中「%s」",
@@ -813,8 +813,8 @@
   "If enabled, then using the Clone Selection hotkey will create\nthe placement at the original area selection position,\ninstead of at the player's current position": "如果启用，那么使用克隆快捷键时\n将在原来选择的区域位置克隆，\n而不是在玩家的当前位置",
   "commandDisableFeedback": "commandback | 禁用命令反馈",
   "If enabled, then command feedback is automatically disabled\nand then re-enabled for multiplayer Paste, Fill and Delete operations\n(which are using /setblock and /fill commands) by disabling and then\nre-enabling the sendCommandFeedback game rule when the task is finished": "如果启用，命令反馈将被自动禁用，\n然后在多人游戏中的粘贴，填充和删除操作\n（使用 /setblock 和 /fill命令）将没有反馈，\n即在仅仅在任务开始时禁用 sendCommandFeedback 游戏规则\n在任务结束时重新启用 sendCommandFeedback 游戏规则",
-  "commandUseWorldEdit": "WorldEdit | 使用创世神指令",
-  "If enabled, instead of using the configured setblock and fill commands,\nthe World Edit //pos1, //pos2 and //set commands are used.\nNote that using World Edit commands is around 3x slower\nthan using vanilla commands due to the command limit per tick,\nand WE requiring multiple commands per block or area (//pos1 //pos2 //set).\n§6WARNING: The paste replace behavior option WILL NOT WORK if using\n§6the World Edit commands and fill volumes instead of individual setblock commands!\nThus it's recommended to use the vanilla commands, if you have the permission to run them.\nOne other thing that might make you prefer WE commands in some cases\nis that they can prevent block updates, if the server doesn't have\nthe Carpet mod and thus the '/carpet fillUpdates false' rule available.": "如果启用该功能，而不是使用已经配置的 setblock 或 fill 命令，\n则使用 World Edit 的 //pos1、//pos2 和 //set 命令。\n注意，使用创世神指令会比正常粘贴大约慢 3 倍\n且由于每 tick 的命令限制，比起使用普通命令，\n我们需要每个块或区域执行多个命令（//pos1 //pos2 //set）。\n§6警告：如果使用创世神指令或 fill 命令而不是单独的 setblock 命令！\n§6粘贴与替换功能将无法使用！\n因此，如果您有权限运行它们，建议使用普通命令。\n另一件让你在某些情况下更喜欢使用 WE 命令的事情是，\n如果服务器没有 Carpet mod 所导致的「/Carpet fillUpdates false」\n规则不可用时，可以使用该功能防止方块更新。",
+  "commandUseWorldEdit": "WorldEdit | 使用 WorldEdit 指令",
+  "If enabled, instead of using the configured setblock and fill commands,\nthe World Edit //pos1, //pos2 and //set commands are used.\nNote that using World Edit commands is around 3x slower\nthan using vanilla commands due to the command limit per tick,\nand WE requiring multiple commands per block or area (//pos1 //pos2 //set).\n§6WARNING: The paste replace behavior option WILL NOT WORK if using\n§6the World Edit commands and fill volumes instead of individual setblock commands!\nThus it's recommended to use the vanilla commands, if you have the permission to run them.\nOne other thing that might make you prefer WE commands in some cases\nis that they can prevent block updates, if the server doesn't have\nthe Carpet mod and thus the '/carpet fillUpdates false' rule available.": "如果启用该功能，而不是使用已经配置的 setblock 或 fill 命令，\n则使用 World Edit 的 //pos1、//pos2 和 //set 命令。\n注意，使用 WorldEdit 指令会比正常粘贴大约慢 3 倍\n且由于每 tick 的命令限制，比起使用普通命令，\n我们需要每个块或区域执行多个命令（//pos1 //pos2 //set）。\n§6警告：如果使用 WorldEdit 指令或 fill 命令而不是单独的 setblock 命令！\n§6粘贴与替换功能将无法使用！\n因此，如果您有权限运行它们，建议使用普通命令。\n另一件让你在某些情况下更喜欢使用 WE 命令的事情是，\n如果服务器没有 Carpet mod 所导致的「/Carpet fillUpdates false」\n规则不可用时，可以使用该功能防止方块更新。",
   "customSchematicBaseDirectoryEnabled": "Schematic | 自定义原理图目录",
   "If enabled, then the directory set in 'customSchematicBaseDirectory'\nwill be used as the root/base schematic directory,\ninstead of the normal '.minecraft/schematics/' directory": "如果启用该功能，则在「customSchematicBaseDirectory」\n中设置的目录路径将用为原理图的根目录，\n而不是正常的§1 .minecraft/schematics/ §r目录",
   "If enabled, then Litematica handles the so called\n\"Carpet mod Accurate Block Placement Protocol\" itself in single player.\nThis is recommended to be kept enabled if you\nare going to use Easy Place in single player.": "如果启用该功能，那么投影将在单人游戏中处理所谓的「地毯精确放置协议」。\n如果你打算在单人游戏中使用简单放置，建议保持启用。",
@@ -883,5 +883,9 @@
   "placementReplaceBehavior": "ReplaceBehavior | 粘贴替换模式优化",
   "The block replace behavior when adding blocks\nto the schematic world.\n\nThis allows using overlapped placements without the\nlater handled placement always ovewriting earlier ones with air.\nOn the other hand some blocks like light blocks are considered\nto be air, so they would need the \"All\" replace behavior\nto get placed at all.": "当原理图粘贴时，方块的替换方式\n这将会允许直接改变重叠的位置，\n而不需要后面处理的位置总是先用空气覆盖前面的位置。\n另一方面，一些像光照方块这样的方块被认为是空气，\n所以它们需要「All」替换行为来放置。",
   
+  // "20240618更新"："这只是一个更新TAG-1.20.4"
+  "materialListIgnoreState": "materialListIgnoreState | 材料清单忽略状态",
+  "When enabled, the exact block state is ignored, and only the block type needs to match": "启用后，将忽略确切的方块状态，仅需要匹配方块类型。",
+
   "litematica.gui.title.configs": "投影配置-汉化醉梦巅峰（ZMDF）- 2023.06.20"
 }
