@@ -372,7 +372,7 @@
     "minihud.config.render_toggle.name.debugWaterEnabled": "WaterEnabled | 水面调试信息显示",
     "minihud.config.render_toggle.comment.overlayBeaconRange": "切换是否显示信标范围",
     "minihud.config.render_toggle.comment.overlayBiomeBorder": "切换是否显示生物群系边界",
-    "minihud.config.render_toggle.comment.overlayBlockGrid": "切换是否显示全部方块网格\n（§4屌用没有还晃眼 - ZMDF§r）",
+    "minihud.config.render_toggle.comment.overlayBlockGrid": "切换是否显示全部方块网格\n（§4屌用没有还晃眼 ——ZMDF§r）",
     "minihud.config.render_toggle.comment.overlayConduitRange": "切换是否显示潮涌核心覆盖范围",
     "minihud.config.render_toggle.comment.overlayLightLevel": "切换是否显示光照等级",
     "minihud.config.render_toggle.comment.overlayRandomTicksFixed": "切换是否显示随机刻固定点位区域",
