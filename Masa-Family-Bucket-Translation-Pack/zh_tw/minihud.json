@@ -68,6 +68,7 @@
     "minihud.gui.label.hover.shape.radius_value": "§7半徑：§6%s",
     "minihud.gui.label.hover.shape.type_value": "§7類型：§b%s",
 
+	"minihud.gui.title.configs": "MiniHUD 設定漢化——醉夢巔峰（ZMDF）- 2023.06.19",
     "minihud.gui.title.shape_editor": "形狀編輯",
     "minihud.gui.title.shape_manager": "形狀管理",
 
@@ -541,23 +542,17 @@
 	"shapeRenderer": "shapeRenderer | 圖形繪製器",
 	"The main toggle for the shape renderer": "切換是否顯示圖形繪製器繪製的圖形",
 	
-	// "20200920更新"："這只是一個更新TAG",
-	
 	"honeyTooltips": "honeyTooltips | 蜂蜜資訊顯示",
 	"Adds the honey level to the tooltip of Bee Hive and Bee Nest items": "在指向蜂窩和蜂箱時加入蜂蜜等級資訊",
 	"infoHoneyLevel": "HoneyLevel | 蜂蜜等級資訊",
 	"Show the honey level the targeted Hive or Nest.\nNote: This only works in single player without server-side support.": "在指向蜂窩和蜂箱時顯示蜂蜜等級資訊\n注意：該功能只可在單機使用",
 	
-	// "20211204更新"："這只是一個更新TAG",
-	//通用
 	"axolotlTooltipsTooltips": "axolotl | 六角恐龍品種提示",
 	"Adds the Axolotl variant name to the bucket tooltip": "將六角恐龍品種名稱加入到桶的工具提示中",
 	
-	//結構繪製器
 	"debugChunkBorder": "ChunkBorder | 區塊邊界顯示",
 	"Toggles the vanilla Chunk Border debug renderer": "打開區塊邊界顯示，效果與 F3 + G 一樣。",
 	
-	//資訊
 	"infoHorseSpeed": "HorseSpeed | 馬加速屬性",
 	"Show the speed (m/s) of the horse being ridden.": "顯示玩家目前所騎的馬的加速屬性（米/秒）。",
 	"infoHorseJump": "HorseJump | 馬跳躍屬性",
@@ -565,8 +560,6 @@
 	"infoSpeedHV": "SpeedHV | 玩家加速分量",
 	"Show the player's current moving speed both horizontally and vertically.": "顯示玩家目前水平和垂直的移動加速。",
 	
-	// "20220129更新"："這只是一個更新TAG",
-	//通用
 	"beaconRangeAutoUpdate": "beaconRange | 烽火台範圍更新",
 	"This enables the Beacon Range renderer to update automatically\nwhen block or chunk change packets are received.\nThose updates can have a performance impact if tons of blocks are changing often.\nYou can toggle off/on the renderer to update to those changes manually.": "這使得烽火台範圍繪製器能夠在接收到方塊或區塊變更時進行自動更新。\n但是如果有大量的方塊經常改變，這些更新可能會對效能造成影響。\n您可以關閉/打開繪製器來手動更新這些變更。",
 	"biomeOverlaySingleColor": "biomeOverlay | 生態系單一顏色邊界",
@@ -599,7 +592,6 @@
 	"lightLevelRenderOffset": "lightLevel | 光源照繪製 Z 軸偏移",
 	"The relative render offset for the light level overlay.\nMeant to help with potential z-fighting issues with the block surface.\nRange: 0.0 - 1.0": "光源照等級繪製層的相對垂直偏移量。\n這是為了幫助解決方塊表面潛在的 Z 軸衝突的問題。\n調節範圍：0.0 - 1.0",
 	
-	//顏色
 	"beaconRangeLvl1": "beaconLvl1 | 1 級烽火台",
 	"Color for the Beacon Range lvl 1 overlay": "1級烽火台範圍的顏色",
 	"beaconRangeLvl2": "beaconLvl2 | 2 級烽火台",
@@ -623,7 +615,6 @@
 	"shapeLineBlocky": "LineBlocky | 線",
 	"Default color for the Line (Blocky) renderer.\nThe color can be changed for each shape via its configuration GUI.": "Line（塊狀）繪製器的預設顏色，可以通過其設定 GUI 進行變更。",
 	
-	//資訊
 	"Show the number of bees in the targeted Hive or Nest.\n§6Note: This only works in single player (without server-side support,\n§6which doesn't exist yet, but will be in the Servux mod at some point).": "顯示目標蜂窩或蜂箱中的蜜蜂數量。\n§6注意：這僅適用於單人遊戲（沒有伺服器端支持，\n§6將無法正常顯示，但會在有 Servux Mod 時可能出現）。",
 	"infoCoordinatesScaled": "Coordinates | 地獄座標映射",
 	"Show the player's coordinates scaled by the dimension's scale factor.\nOnly works in the overworld and the nether,\nand assumes the vanilla nether portal scaling factor.": "根據維度的比例係數顯示玩家的座標。只適用於主世界和地獄，\n並且地獄與主世界的比例係數是原版的係數。",
@@ -633,13 +624,11 @@
 	"infoSprinting": "Sprinting | 奔跑狀態",
 	"Show the \"Sprinting\" info line if the player is sprinting": "如果玩家正在衝刺，顯示「衝刺」資訊行\n§c我自己不知道我在跑是吧？",
 	
-	//繪製器
 	"overlayBeaconRange": "BeaconRange | 烽火台範圍顯示",
 	"Toggle the Beacon Range overlay renderer": "切換是否顯示烽火台範圍",
 	"overlayBiomeBorder": "BiomeBorder | 生態系邊界顯示",
 	"Toggle the Biome Border overlay renderer": "切換是否顯示生態系邊界",
 	
-	// "20220731更新"："這只是一個更新TAG",
 	"offsetSubtitleHud": "offset | 偏移字幕 Hud",
 	"If the Info Lines HUD is set to the bottom right corner,\nand subtitles are enabled, then the subtitles will\nbe offset to appear above the Info Lines text.": "如果資訊 HUD 設定為右下角，\n並且字幕設定為啟用，\n那麼字幕將被偏移顯示在資訊 HUD 上方。",
 	"conduitRange": "conduit | 海靈核心",
@@ -653,12 +642,10 @@
 	"overlayConduitRange": "overlayConduit | 海靈核心範圍",
 	"Toggle the Conduit Range overlay renderer": "顯示海靈核心覆蓋範圍",
 	
-	// "20230619更新"："這只是一個更新TAG",
 	"The format string for the Minecraft time.\nThe supported placeholders are: {DAY_1}, {DAY}, {HOUR}, {MIN}, {SEC}, {MOON}.\n{DAY_1} starts the day counter from 1, {DAY} starts from 0.": "預設格式為：§eMC time：（day 0）00：00：xx§r\n功能為定義 MC 時間的顯示格式\n支持的預留位置有：\n{DAY_1}（初始值為 1 的日）、{DAY}（初始值為 0 的日）、\n{HOUR}（小時）、{MIN}（分鐘）、{SEC}（秒）、\n{MOON}（月相）。",
 	"infoMobCaps": "MobCaps | 生怪占用",
 	"Show the mob caps\n\n§dNote: Currently only works on Carpet servers!\n§6The data is currently only parsed from the player list footer on Carpet servers,\n§6if you have subscribed to the data with '/log mobcaps'": "顯示生怪占用\n\n§d注意：目前只適用於地毯端伺服器！\n§6資料目前只能從 Carpet 伺服器上的 list 列表解析（TAB 抬頭顯示）\n§6當然前提是如果您已使用「/log mobcaps」向伺服器取得了資料",
 	
-	// "20240618更新"："這只是一個更新TAG",
 	"slimeChunkTopToPlayer": "slimeChunkTopToPlayer | 史萊姆區塊",
 	"If enabled, then the slime chunk overlay's top position\nis set to the player's y-position when the overlay is turned on.\nIf disabled, then the top is set to y = 40 when the overlay is turned on.": "如果啟用，則當疊加層打開時，史萊姆區塊顯示範圍的頂部位置將設定為玩家的 y 位置。\n如果停用，則當顯示範圍開啟時，頂部設定為 y = 40。",
 	"mapPreviewRequireShift": "mapPreviewRequireShift | 地圖需要 Shift 預覽",
@@ -684,7 +671,5 @@
 	"Trail Ruins Main": "Trail Ruins | 古蹟廢墟主體",
 	"Trail Ruins full box": "古蹟廢墟整體結構",
 	"Trail Ruins Components": "Trail Ruins | 古蹟廢墟結構",
-	"Trail Ruins components": "古蹟廢墟部分結構",
-	
-	"minihud.gui.title.configs": "MiniHUD 設定漢化——醉夢巔峰（ZMDF）- 2023.06.19"
+	"Trail Ruins components": "古蹟廢墟部分結構"
 }

@@ -23,5 +23,17 @@ files: [
   {
     "source": "Masa-Family-Bucket-Translation-Pack/en_us/litematica.json",
     "translation": "Masa-Family-Bucket-Translation-Pack/%locale%/%original_file_name%",
+  },
+  {
+    "source": "Masa-Family-Bucket-Translation-Pack/en_us/malilib.json",
+    "translation": "Masa-Family-Bucket-Translation-Pack/%locale%/%original_file_name%",
+  },
+  {
+    "source": "Masa-Family-Bucket-Translation-Pack/en_us/minihud.json",
+    "translation": "Masa-Family-Bucket-Translation-Pack/%locale%/%original_file_name%",
+  },
+  {
+    "source": "Masa-Family-Bucket-Translation-Pack/en_us/tweakeroo.json",
+    "translation": "Masa-Family-Bucket-Translation-Pack/%locale%/%original_file_name%",
   }
 ]

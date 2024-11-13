@@ -16,7 +16,8 @@
     "tweakeroo.gui.button.misc.command_block.update_execution.off": "循環：§c關閉",
     "tweakeroo.gui.button.misc.command_block.update_execution.looping": "循環",
     "tweakeroo.gui.button.misc.command_block.hover.update_execution": "是否允許每個 Tick 內進行多次觸發",
-    
+	
+	"tweakeroo.gui.title.configs": "Tweakeroo 設定介面 | 漢化：醉夢巔峰&新兵Sinbing - 20230619",
     
     "tweakeroo.hotkeys.category.disable_toggle_hotkeys": "停用快捷鍵切換",
     "tweakeroo.hotkeys.category.generic_hotkeys": "通用快捷鍵",
@@ -30,7 +31,6 @@
     "tweakeroo.label.placement_restriction_mode.plane": "平面",
 
     "tweakeroo.label.config_comment.single_player_only": "",
-    //§6注意: 在多人遊戲中該功能可能不完全可用或完全不可用。§r   在原文後加\n自動加入下面內容
 
     "tweakeroo.label.snap_aim_mode.both": "旋轉與翻轉",
     "tweakeroo.label.snap_aim_mode.pitch": "翻轉",
@@ -78,9 +78,6 @@
     "tweakeroo.message.warning.block_type_break_restriction": "§6方塊破壞類型限制調整為防止破壞方塊",
     "tweakeroo.message.warning.entity_type_attack_restriction": "§6實體攻擊類型限制調整為防止攻擊實體",
 
-    
-    
-	// "通用功能快捷鍵 "
 	"accurateBlockPlacementInto": "accurateInto | 精準放置模式",
 	"The key to activate the accurate block placement\nmode/overlay for placing the block facing\ninto the clicked block face": "啟動精確放置的快捷鍵，使用後方塊將放置於點擊的塊面上",
 	"accurateBlockPlacementReverse": "accurateReverse | 精準放置（反向）",
@@ -154,7 +151,6 @@
 	"zoomActivate": "zoomActivate | 啟動望遠鏡",
 	"Zoom activation hotkey": "望遠鏡啟動快速鍵。",
 	
-	// "工具開關"
 	"carpetAccuratePlacementProtocol": "carpetAccurate | Carpet 精確放置協議",
 	"If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented\nin the recent carpet mod versions": "啟用後，靈活放置的精確放置功能將基於 Carpet 協議實現。\n使用 Carpet 協議能夠讓你在伺服器上也可以精確放置。\n§6Carpet 協議需要伺服器安裝有 Carpet Mod§f",
 	"fastPlacementRememberOrientation": "fastPlacement | 快速放置記憶",
@@ -298,8 +294,6 @@
 	"tweakZoom": "Zoom | 啟用望遠鏡",
 	"Enables using the zoom hotkey to, well, zoom in": "啟用後需要在 §6[通用功能快捷鍵]-[啟動望遠鏡] §f中設定快捷鍵來使用望遠鏡。",
 	
-
-	// "設定表單"
 	"fastPlacementItemListType": "fast | 快速放置限制方式",
 	"The item restriction type for the Fast Block Placement tweak": "用於限制§6快速放置方塊§f的列表類型。",
 	"fastPlacementItemBlackList": "fast | 快速放置黑名單",
@@ -331,8 +325,6 @@
 	"unstackingItems": "unstacking | 不可堆疊保護列表",
 	"The items that should be considered for the\n'tweakItemUnstackingProtection' tweak": "功能§6不可堆疊物品保護§f所保護的物品。",
 	
-
-	// "修復"
 	"clientChunkEntityDupeFix": "client | 客戶端幽靈實體修復",
 	"Fixes the client world chunks essentially duping their\nentities when chunk packets are received": "修復了客戶端區塊載入時資料包過多出現幽靈實體的情況。",
 	"elytraFix": "elytraFix | 鞘翅修復",
@@ -344,8 +336,6 @@
 	"tileEntityUnloadOptimization": "tileEntity | 方塊實體卸載最佳化",
 	"Optimizes the removal of unloading TileEntities from the World lists.\nThis can greatly improve performance if there are lots of\nTileEntities loaded and/or unloading at once.": "最佳化了從世界中刪除並卸載方塊實體的功能。\n如果有大量的方塊實體同時載入和/或卸載，這可以大大改善效能。",
 	
-
-	// "通用功能"
 	"afterClickerClickCount": "afterClicker | 放置後點擊次數",
 	"The number of right clicks to do per placed block when\ntweakAfterClicker is enabled": "當放置方塊後，右鍵點擊的次數。",
 	"blockReachDistance": "blockReach | 方塊放置距離",
@@ -447,8 +437,6 @@
 	"zoomFov": "zoomFov | 縮放時視角",
 	"The FOV value used for the zoom feature": "設定使用望遠鏡時的視野角度。",
 	
-
-	// "停用類"
 	"disableBlockBreakingParticles": "Block | 停用方塊破碎粒子",
 	"Removes the block breaking particles.\n(This is originally from usefulmod by nessie.)": "移除當方塊破碎時產生的粒子效果。（由 Nessie 製作）",
 	"disableDoubleTapSprint": "DoubleTapSprint | 停用雙擊疾走",
@@ -500,8 +488,6 @@
 	"disableWallUnsprint": "WallUnsprint | 停用牆壁剎車",
 	"Touching a wall doesn't drop you out from sprint mode": "開啟後在疾走時撞上牆壁也不會停止疾走狀態。",
 	
-	
-	// "主選單"
 	"Advanced Keybind settings": "高級按鍵綁定設定",
 	"Activate On:": "啟動",
 	"Allow empty keybind:": "允許綁定為空",
@@ -514,11 +500,7 @@
 	"- Left click to configure": "-點擊左鍵設定",
 	"- Right click to reset to defaults": "-右鍵重設設定",
 	"Advanced Keybind Settings for placementRestrictionModeline": "高級快速鍵綁定設定的位置限制模式",
-    
-
-
-	// "20200812更新"："這只是一個更新TAG"
-	// 通用設定更新
+	
 	"freeCameraPlayerMovement": "freeCamPlayer | 靈魂/身體操作切換",
 	"When enabled, the movement inputs in the Free Camera mode\nwill move the actual client player instead of the camera": "當啟用時，在靈魂出竅模式下的移動輸入將移動實際的客戶端的視角而不是相機\n也就是說，當你開啟這個功能時，你操縱的是角色本體",
 	"Toggle the Generic -> freeCameraPlayerMovement option": "切換通用功能中的\"freeCamPlayer | 靈魂/身體操作切換\"選項",
@@ -532,10 +514,10 @@
 	"The number of game ticks to hold down use": "這個數字是玩家持續按住右鍵的時間。（單位：遊戲刻）",
 	"periodicHoldUseInterval": "periodicHoldAttack | 右鍵按住間隔",
 	"The number of game ticks between starting to hold down use (right click)": "這個數字是間隔多久按住一次。（單位：遊戲刻）",
-	// 列表更新
+
 	"creativeExtraItems": "creativeExtra | 額外物品清單",
 	"Extra items that should be appended to the creative inventory.\nCurrently these will appear in the Transportation category.\nIn the future the group per added item will be customizable.": "在創造模式物品選單中的 [交通運輸] 中加入額外物品。",
-	// 功能開啟設定更新
+
 	"tweakCreativeExtraItems": "CreativeExtra | 創造額外物品",
 	"Adds custom items to item groups.\nSee Lists -> 'creativeExtraItems' to control which items are added to the groups.\nNote: Currently these will be added to the Transportation group\n(because it has the elast items), but in the future\nthe groups will be configurable per added item": "開啟後會在創造模式物品選單中的 [交通運輸] 中加入額外物品。\n預設為指令方塊與結構方塊一類。\n你也可以在 §6[設定表單]-[額外物品清單] §f中自行額外加入。",
 	"tweakFakeSneakPlacement": "FakeSneakPlacement | 屏蔽方塊互動",
@@ -546,26 +528,23 @@
 	"Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n§6Note: You should not use the normal hold use§r\n§6or the periodic use at the same time§r": "循環週期與單次按住時間可以在 §6[通用功能] §f中調整。\n§6注意：請不要將此功能與長按右鍵一同使用。§f",
 	"tweakRenderEdgeChunks": "RenderEdgeChunks | 繪製邊界區塊",
 	"Allows the edge-most client-loaded chunks to render.\nVanilla doesn't allow rendering chunks that don't have\nall the adjacent chunks loaded, meaning that the edge-most chunk\nof the client's loaded won't render in vanilla.\nThis is also very helpful in the Free Camera mode!": "允許繪製載入強度為「邊界」的區塊，這在靈魂出竅狀態下比較有用。\n原版中不允許繪製載入強度為「邊界」的區塊，導致客戶端載入的大部分邊緣區塊不能正常顯示。",
-	// 通用設定快捷鍵更新
+
 	"toggleGrabCursor": "toggleGrabCursor | 切換滑鼠",
 	"Grabs or ungrabs the mouse cursor, depending on the current state": "將滑鼠從目前視窗切換到外部視窗，在外部視窗的滑鼠操作不影響遊戲內操作。",
 	
-	// "20200920更新"："這只是一個更新TAG"
-	// 通用設定更新
 	"freeCameraPlayerInputs": "freeCam | 靈魂出竅玩家操作",
 	"When enabled, the attacks and use actions\n(ie. left and right clicks) in Free Camera mode are\nlet through to the actual player.": "啟用後，你才能在靈魂出竅狀態下控制自己。",
 	"slotSyncWorkaroundAlways": "slotSync | 一直同步物品槽",
 	"Enables the slot sync workaround at all times when the use key\nis held, not only when using fast right click or fast block placement.\nThis is mainly for other mods that may quickly use items when\nholding down use, such as Litematica's Easy Place mode.": "啟用這種工作方式後，會在按住右鍵時持續同步，\n例如使用§6方塊快速放置§f或§6右鍵快速點擊§f時。\n這在你使用當按住右鍵時會快速使用物品的其他 Mod 時會很有用，\n比如 §elitematica §f的§6輕鬆放置功能§f。",
-	// 功能開啟設定更新
+
 	"tweakSneak_1.15.2": "Sneak 1.15.2 | 潛行恢復",
 	"Restores the 1.15.2 sneaking behavior": "恢復了 1.15.2 的潛行行為",
-	// 通用設定快捷鍵更新
+
 	"freeCameraPlayerInputs": "freeCam | 靈魂出竅玩家操作",
 	"Toggle the Generic -> freeCameraPlayerInputs option": "用於切換 [通用設定]-[靈魂出竅玩家操作] 功能的開啟與關閉。",
 	"swapElytraChestplate": "swapElytra | 鞘翅胸甲",
 	"Swaps the currently equipped item in the chest slot between an Elytra and a Chest Plate": "按下快捷鍵時，更換胸部裝備為鞘翅/胸甲。",
 	
-	// "20210227更新"："這只是一個更新TAG1.16.4"
 	"handRestockPreThreshold": "handRestock | 自動補貨閾值",
 	"The stack size threshold at which Hand Restock will happen\nin the pre-restock mode": "在自動補貨模式下的補貨閾值",
 	"disableAxeStripping": "AxeStripping | 停用斧頭剝皮",
@@ -575,8 +554,6 @@
 	"disableWorldViewBob": "WorldViewBob | 停用走路晃動",
 	"Disables the view bob wobble effect of the world, but not the hand": "停用移動時的走路晃動效果，不是停用手部搖晃。",
 	
-	
-	// "20210227更新"："這只是一個更新TAG-1.17"
 	"disableArmorStandRendering": "ArmorStand | 停用盔甲座繪製",
 	"Disabled all Armor Stand entity rendering": "停用了所有盔甲座實體的繪製",
 	"tweakHangableEntityBypass": "HangableEntity | 忽略懸掛實體",
@@ -588,17 +565,13 @@
 	"sculkSensorPulseLength": "sculkSensor | 潛聲植物脈衝長度",
 	"The pulse length for Sculk Sensors, if the 'tweakSculkPulseLength' tweak is enabled.": "啟用§6調整潛聲植物脈衝§f時，該數值為潛聲植物發出的脈衝長度。（單位：遊戲刻）",
 
-
-	// "20210612更新_1.17正式版"
-	// "停用"
 	"disableChunkRendering": "Chunk | 停用區塊繪製",
 	"Disables chunk (re-)rendering. This will make any block changes non-visible\nuntil this is disable again and F3 + A is used to refresh the world rendering.\nThis might help with low fps in places with lot of block change.": "停用區塊繪製，這會導致所有方塊不可見。\n恢復繪製需要在停用此功能後使用 F3 + A 重新繪製世界。\n這可能會讓你在大量方塊改變時擁有不那麼低的幀數。",
 	"disableClientLightUpdates": "Client | 停用客戶端光源照更新",
 	"Disables all client-side light updates": "停用客戶端的所有光源照更新。",
 	"disableRenderingScaffolding": "Renderingscaffold | 停用鷹架繪製",
 	"Disables rendering of Scaffolding Blocks": "停用鷹架的繪製。",
-	
-	// "20210922更新_1.16.5"
+
 	"toolSwitchableSlots": "toolSwitch工具選擇範圍",
 	"The slots that the Tool Switch tweak is allowed to put tools to.\nNote that Tool Switch can also switch to other slots in the hotbar,\nif they already have the preferred tool, but it will only\nswap new tools to these slots": "工具選擇的物品欄調整為允許選擇的物品欄位。\n請注意，工具選擇也可以切換到快捷欄中的其他物品欄位，\n如果已經擁有首選工具，只會將新工具切換到這些物品欄位",
 	"macHorizontalScroll": "macScroll | MAC 修復",
@@ -610,17 +583,14 @@
 	"Disables chunk (re-)rendering. This will make any block changes non-visible\\nuntil this is disabled again and F3 + A is used to refresh the world rendering.\\nThis might help with low fps in places with lots of block changes in some situations,\\nwhere the block changes are not really relevant at that time.": "停用方塊多次繪製。這將使任何方塊的更新不可見，\n直到再次停用它並使用 F3 + A 刷新世界繪製。 \n在某些情況下，這可能有助於在有大量塊變更的地方降低 Fps，\n此時方塊更新與真正的更新無關。",
 	"Enables periodically holding attack for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldAttackInterval\nand the duration in periodicHoldAttackDuration\n§6Note: You should not use the normal hold attack\n§6or the periodic attack at the same time": "在一定的時間內保持左鍵狀態。 \n在 [通用設定]->[左鍵按住間隔] 中設定時間間隔，\n在 [左鍵按住時間] 中設定持續時間\n§6注意：你不應該同時使用長按左鍵或左鍵連點",
 	"Enables periodically holding use for a configurable amount of time.\nConfigure the interval in Generic -> periodicHoldUseInterval\nand the duration in periodicHoldUseDuration\\n§6Note: You should not use the normal hold use\n§6or the periodic use at the same time": "在一定的時間內保持右鍵狀態。 \n在 [通用設定]->[右鍵按住間隔] 中設定時間間隔，\n在 [右鍵按住時間] 中設定持續時間\n§6注意：你不應該同時使用長按右鍵或右鍵連點",
-	
-	// "20211204更新_1.17.1正式版"
-	//通用功能
+
 	"snapAimOnlyCloseToAngle": "snapAim | 預設角度內鎖定視角",
 	"If enabled, then the snap aim only snaps to the angle\nwhen the internal angle is within a certain distance of it.\nThe threshold can be set in snapAimThreshold": "啟用該功能後那麼視角鎖定功能\n將僅在一定閾值內的角度時鎖定該角度。\n角度閾值可以在 snapAimThreshold 中設定",
 	"snapAimThresholdPitch": "snapAim | 角度閾值（垂直方向）",
 	"The angle threshold inside which the player rotation will\nbe snapped to the snap angle.": "當玩家的視角在這個角度閾值內時，\n玩家的視角旋轉將被捕獲到固定角度。",
 	"snapAimThresholdYaw": "snapAim | 角度閾值（水平方向）",
 	"The angle threshold inside which the player rotation will\nbe snapped to the snap angle.": "當玩家的視角在這個角度閾值內時，\n玩家的視角旋轉將被捕獲到固定角度。",
-	
-	//設定表單
+
 	"blockBreakRestrictionListType": "blockBreak | 方塊破壞規則限制方式",
 	"The restriction list type for the Block Type Break Restriction tweak": "使用方塊破壞規則時的限制方式",
 	"blockBreakRestrictionBlackList": "blockBreak | 方塊破壞規則黑名單",
@@ -633,26 +603,21 @@
 	"The items that are NOT allowed to be restocked with the Hand Restock tweak,\nif the handRestockListType is set to Black List": "如果「自動補貨限制方式」設定為黑名單，\n那麼自動補貨時將無法補充此類物品",
 	"handRestockWhiteList": "handRestock | 自動補貨白名單",
 	"The only allowed items that can be restocked with the Hand Restock tweak,\nif the handRestockListType is set to White List": "如果「自動補貨限制方式」設定為白名單，\n那麼自動補貨時將只能補充此類物品",
-	
-	//工具開關
+
 	"tweakBlockTypeBreakRestriction": "BlockTypeBreak | 方塊破壞規則",
 	"Restricts which blocks you are able to break (manually).\nSee the corresponding 'blockBreakRestriction*' configs in the Lists category.": "使用您客製化的方塊破壞規則。\n在設定表單中的「blockBreakRestriction」變更您的設定。",
 	"If enabled, then the level of Respiration and Aqua Affinity enchantments,\nand having the Fire Resistance effect active,\nwill greatly increase the visibility under lava.": "如果啟用該功能，\n那麼水中呼吸附魔的等級，\n以及抗火效果的啟動，\n將大大增加岩漿下的視野。",
-	
-	//通用功能快捷鍵
+
 	"sitDownNearbyPets": "sitDown | 坐下！",
 	"Makes all nearby pets sit down": "讓附近所有的寵物坐下",
 	"standUpNearbyPets": "standUp | 起來！",
-	"Makes all nearby pets stand up": "讓附近所有的寵物站起",//全體起立！我向周圍的貓貓狗狗宣布！\n從今天起這個地方叫 lbw 廣場！\nby-yuki
-	
-	//停用類功能
+	"Makes all nearby pets stand up": "讓附近所有的寵物站起",
+
 	"disableScoreboardRendering": "Scoreboard | 停用計分板顯示",
 	"Removes the sidebar scoreboard rendering": "停用側面的計分板顯示",
 	"disableShulkerBoxTooltip": "SBoxTooltip | 停用界伏盒原版顯示",
 	"Disables the vanilla text tooltip for Shulker Box contents": "關閉界伏盒內容的原版文字顯示",
-	
-	// "20220130更新_1.18.1正式版"
-	//通用功能
+
 	"If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented in Carpet mod.\n§6Note: This is required for any block rotations to work, other than\n§6blocks that only care about the block side you click on (Hoppers, Logs etc.)": "如果啟用，那麼靈活放置和精確放置將會使用地毯 Mod 實現。\n§6注意：任何方塊旋轉都需要這樣做，\n§6除了方向只依賴於你在側面點擊的方塊（漏斗、原木等）",
 	"fastLeftClickAllowTools": "LeftClickTools | 左鍵連點工具相容",
 	"Allow the Fast Left Click to work in survival\nalso while holding tool items": "在生存當中開啟左鍵快速點擊將相容工具\n§b相思木：你們挖區塊都不開連點的嗎？",
@@ -667,10 +632,8 @@
 	"toolSwitchIgnoredSlots": "toolSwitch | 工具選擇忽略欄位",
 	"The slots where the Tool Switch tweak does not work when they are active.": "寫入自動工具選擇的忽略欄位\n當使用這幾個欄位點擊想要破壞的方塊時\n自動工具選擇將不會起作用\n書寫樣例：1-4",
 	
-	//修復
 	"Elytra landing fix by Earthcomputer and Nessie.\nThe deployment fix is now in vanilla, so this only affects landing now.": "鞘翅著陸被 Earthcomputer 和 Nessie 修復\n原版現在修復了起飛，所以該功能只影響了降落",
 	
-	//設定表單
 	"blockTypeBreakRestrictionListType": "blockBreak | 方塊破壞規則限制方式",
 	"blockTypeBreakRestrictionBlackList": "blockBreak | 方塊破壞規則黑名單",
 	"blockTypeBreakRestrictionWhiteList": "blockBreak | 方塊破壞規則白名單",
@@ -682,12 +645,10 @@
 	"The only entities that can be attacked while the Entity Attack Restriction tweak is enabled,\nif the entityAttackRestrictionListType is set to White List": "當實體攻擊限制啟用時，如果實體攻擊限制方式設定為白名單，\n那麼這是唯一可以被攻擊的實體",
 	"entityWeaponMapping": "entityWeapon | 武器切換規則",
 	"Mapping for what weapon should be used with the\n'tweakWeaponSwitch' tweak.\n'<default>' will be used when no other mapping is defined.\n'<ignore>' will not trigger a weapon switch.": "透過打開「武器自動選擇」選項來選擇應該使用的武器。\n- <default>：將在沒有定義其他實體時使用\n- <ignore>：不會觸發武器切換",
-	
-	//通用功能快捷鍵
+
 	"toggleCarpetAccuratePlacementProtocol": "toggleCarpet | 切換地毯精確放置協議",
 	"Toggles the value of the Generic -> 'carpetAccuratePlacementProtocol' option": "開關通用中的地毯精確放置協議",
-	
-	//停用
+
 	"§6disableBatSpawning§r": "§6BatSpawning | 停用蝙蝠生成§r",
 	"Disables Bat spawning in single player\n": "禁止在單人遊戲中生成蝙蝠\n§6注意：在多人遊戲中該功能可能不完全可用或完全不可用。§r",
 	"disableBeaconBeamRendering": "BeaconBeam | 關閉烽火台光源柱繪製",
@@ -706,8 +667,7 @@
 	"Disables converting grass etc. to Path Blocks with a shovel": "用鏟子不能將草地等其他方塊轉換為土徑塊",
 	"Prevent all TileEntities from getting ticked\n": "阻止所有的方塊實體被加入運算。\n§6注意：在多人遊戲中該功能可能不完全可用或完全不可用。§r",
 	"Prevents villager trades from ever locking, by always incrementing\nthe max uses as well when the recipe uses is incremented\n": "透過在交易時增加最大次數限制來防止村民鎖定交易。\n§6注意：在多人遊戲中該功能可能不完全可用或完全不可用。§r",
-	
-	//工具
+
 	"tweakCustomFlyDeceleration": "CustomFly | 飛行減速",
 	"Allows changing the fly deceleration in creative or spectator mode.\nThis is mainly meant for faster deceleration ie. less \"glide\"\nwhen releasing the movement keys.\nSee Generic -> flyDecelerationRampValue": "允許在創造模式或旁觀者模式下改變飛行減速程度，\n這主要是指更快的減速。當釋放移動鍵時，滑翔的距離將更少。\n減速係數：通用 -> 飛行阻力因素",
 	"tweakEntityTypeAttackRestriction": "EntityAttack | 實體攻擊限制",
@@ -720,8 +680,7 @@
 	"tweakStructureBlockLimit": "§6StructureLimit | 變更結構方塊範圍上限§r",
 	"tweakWeaponSwitch": "WeaponSwitch | 武器自動選擇",
 	"Enables automatically switching to a weapon for the targeted entity": "根據目標實體的不同自動切換武器",
-	
-	// "20220731更新_1.19.1正式版"
+
 	"itemUsePacketCheckBypass": "itemUse | 物品使用校驗",
 	"Bypass the new distance/coordinate check that was added in 1.18.2.\n\nThat check breaks the \"accurate placement protocol\" and causes\nany blocks placed with a rotation (or other property) request to just become ghost blocks.\n\nThere is basically no need to ever disable this.\nThe check didn't even exist ever before 1.18.2.": "該功能繞過了1.18.2中新加入的距離/座標校驗。\n該校驗破壞了「精確放置協議」的功能\n並導致任何帶有旋轉（或其他屬性）\n請求放置的方塊變成了幽靈方塊\n基本上沒有必要停用這個校驗。\n因為在 1.18.2 之前，這個校驗甚至都不存在",
 	"disableBossBar": "BossBar | 停用 Boss 血條",
@@ -729,8 +688,6 @@
 	"disableStatusEffectHud": "EffectHud | 停用 Buff 顯示",
 	"Disables the status effect HUD rendering (which is usually\nin the top right corner of the screen)": "停用狀態效果的 HUD 繪製（通常在畫面的右上角）",
 	
-	
-	// "20230617更新_1.20.1正式版"
 	"customInventoryGuiScale": "InventoryGui | 自訂容器比例",
 	"The GUI scale value to use for inventory screens, if\n§etweakCustomInventoryScreenScale§r is enabled.": "如果啟用了§e「自訂容器比例」§r，則可以調整容器 GUI 比例。",
 	"tweakCustomInventoryScreenScale": "InventoryGui | 自訂容器比例",
@@ -738,9 +695,6 @@
 	"disableSkyDarkness": "SkyDarkness | 停用天空黑暗",
 	"Disables the sky darkness below y = 63\n\n(By moving the threshold y to 2 blocks below the bottom of the world instead)": "停用y = 63 以下的天空黑暗\n§e可以理解為靈魂出竅增強§r\n（透過將觸發閾值 y 移動到世界底部以下 2 格）",
 
-	// "20240618更新_1.20.4正式版"
 	"angelBlockPlacementDistance": "angelBlockPlacementDistance | 憑空放置距離",
-	"The distance from the player blocks can be placed in\nthe air when tweakAngelBlock is enabled.\n5 is the maximum the server allows.": "啟用§e憑空放置§r時，玩家可以放置在空中的方塊距離。\n5 是伺服器中0允許的最大值。",
-	
-	"tweakeroo.gui.title.configs": "Tweakeroo 設定介面 | 漢化：醉夢巔峰&新兵Sinbing - 20230619"
+	"The distance from the player blocks can be placed in\nthe air when tweakAngelBlock is enabled.\n5 is the maximum the server allows.": "啟用§e憑空放置§r時，玩家可以放置在空中的方塊距離。\n5 是伺服器中0允許的最大值。"
 }
