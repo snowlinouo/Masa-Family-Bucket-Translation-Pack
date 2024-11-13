@@ -1,7 +1,10 @@
-﻿{
+{
   "pack": {
-    "pack_format": 34,
-    "supported_formats": [ 18, 34 ],
-    "description":"\u00A7eMASA 全家桶\u00A7f汉化：§6醉梦巅峰&新兵Sinbing§7 —— §7作者可在B站找到"
+    "pack_format": 32,
+    "supported_formats": [
+      9,
+      32
+    ],
+    "description": "§e[1.20.4]MASA全家桶汉化包"
   }
 }

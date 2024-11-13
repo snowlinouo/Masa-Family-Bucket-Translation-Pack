@@ -39,23 +39,12 @@ def create_resource_pack(version):
         
 
 def rename_mcmeta():
-    def get_git_tags():
-        try:
-            result = subprocess.run(["git", "describe", "--tags", "--abbrev=0"], capture_output=True, text=True, check=True)
-            tag = result.stdout.splitlines()
-            return tag
-        except subprocess.CalledProcessError as e:
-            print(f"Error while running git command: {e}")
-            return []
-
-    tag = get_git_tags()
-
     with open('pack.mcmeta', 'r', encoding='utf-8-sig') as f:
         data = json.load(f)
 
-    data['pack']['pack_format'] = 42
-    data['pack']['supported_formats'] = [ 34, 42 ]
-    data['pack']['description'] = '§e[1.21]MASA全家桶汉化包' + '-' + tag[0]
+    data['pack']['pack_format'] = 32
+    data['pack']['supported_formats'] = [ 9, 32 ]
+    data['pack']['description'] = '§e[1.20.4]MASA全家桶汉化包'
 
     with open('pack.mcmeta', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -78,9 +67,9 @@ def zip_files(version: str):
         'pack.png',
     ]
     if version == 'neo':
-        zip_filename = './Masa-Family-Bucket-Translation-Pack-neo.zip'
+        zip_filename = './masa-mods-chinese-neo.zip'
     else:
-        zip_filename = './Masa-Family-Bucket-Translation-Pack.zip'
+        zip_filename = './masa-mods-chinese.zip'
     zip_files_and_folders(zip_filename, items_to_zip)
 
 def delete_files():
