@@ -701,9 +701,7 @@
   "generateLowercaseNames": "Names | 命名建議",
   "ghostBlockAlpha": "ghostBlock | 虛影方塊不透明度",
   "highlightBlockInInventory": "highlightBlock | 物品欄高亮顯示",
-  // "20210227更新"："這只是一個更新TAG-1.16.4"
   "hightlightBlockInInventoryColor": "hightlightBlock | 高亮顯示顏色",
-  // "20210227更新"："這只是一個更新TAG-1.17"
   "ignoreExistingFluids": "ignoreExisting | 忽略投影內液體",
   "infoHudAlignment": "infoHud | 材料 HUD 位置",
   "infoHudMaxLines": "infoHud | 材料 HUD 行數",
