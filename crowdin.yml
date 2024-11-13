@@ -17,7 +17,7 @@ base_url: "https://api.crowdin.com"
 #
 files: [
   {
-    "source": "masa-mods-chinese/en_us/itemscroller.json",
-    "translation": "masa-mods-chinese/%locale%/%original_file_name%",
+    "source": "Masa-Family-Bucket-Translation-Pack/en_us/itemscroller.json",
+    "translation": "Masa-Family-Bucket-Translation-Pack/%locale%/%original_file_name%",
   }
 ]
