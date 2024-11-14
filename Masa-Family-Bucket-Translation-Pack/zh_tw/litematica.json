@@ -443,7 +443,7 @@
   "A hotkey to cycle to the next schematic version in the Version Control tool mode": "在版本控制工具模式下，循環到上一個投影版本的快速鍵",
   "A hotkey to toggle the pick block toggle option in the\nGeneric configs. This is provided as a quick way to enable\nor disable the pick block keys, if they interfere with something.": "在通用設定當中快速關閉或開啟方塊選擇的快捷鍵\n這是一種快速切換其模式的方法。\n如果它們產生了什麼干擾（比如功能衝突）",
   "A hotkey to toggle the placement restriction mode": "切換位置限制模式的快捷鍵",
-  "A key to delete blocks from the world based on the currently\nselected version's placement.\nSe Generic -> 'schematicVcsDeleteMode' for the delete mode/behavior": "該按鍵可以根據當前所選版本的位置從世界中刪除方塊\n§6[通用功能] -> [原理圖刪除模式]§r 只用於刪除模式與行為",
+  "A key to delete blocks from the world based on the currently\nselected version's placement.\nSe Generic -> 'schematicVcsDeleteMode' for the delete mode/behavior": "該按鍵可以根據當前所選版本的位置從世界中刪除方塊\n在 §6[通用功能] -> [原理圖刪除模式]§r 定義刪除模式/行為",
   "A key to pick block the first\nschematic block ray traced to": "該按鍵可以選中指向的表面方塊，\n並將將其切換至手中",
   "A key to pick block the last schematic block\nray traced to, before the first (possible) client world\nblock ray traced to. Basically this would get\nyou the block you could place against an existing block.": "該按鍵可以選中目前可以放置的方塊\n怎麼解釋呢？就是說，這個鍵會選擇你現在可以放置的最遠的方塊，\n當然這得看你對準了哪個面",
   "Add a new selection box (position 1) here": "在目前位置加入一個新的選區（位置 1）",
