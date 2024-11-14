@@ -21,7 +21,6 @@
     "tweakeroo.label.placement_restriction_mode.layer": "层",
     "tweakeroo.label.placement_restriction_mode.line": "线",
     "tweakeroo.label.placement_restriction_mode.plane": "平面",
-    "tweakeroo.label.config_comment.single_player_only": "",
     "tweakeroo.label.snap_aim_mode.both": "偏航角与俯仰角",
     "tweakeroo.label.snap_aim_mode.pitch": "俯仰角",
     "tweakeroo.label.snap_aim_mode.yaw": "偏航角",
