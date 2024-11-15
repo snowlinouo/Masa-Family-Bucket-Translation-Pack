@@ -582,7 +582,7 @@
     "Disables the vanilla text tooltip for Shulker Box contents": "關閉界伏盒內容的原版文字顯示",
     "If enabled, then the Flexible Block Placement and the\nAccurate Block Placement use the protocol implemented in Carpet mod.\n§6Note: This is required for any block rotations to work, other than\n§6blocks that only care about the block side you click on (Hoppers, Logs etc.)": "如果啟用，那麼 §6[方塊靈活放置]§r 和 §6[精確放置]§r 將會使用 Carpet 模組實現。\n§6注意：任何方塊旋轉都需要這樣做，\n§6除了方向只依賴於你在側面點擊的方塊（漏斗、原木等）",
     "fastLeftClickAllowTools": "LeftClickTools | 左鍵連點工具相容",
-    "Allow the Fast Left Click to work in survival\nalso while holding tool items": "在生存當中開啟左鍵快速點擊將相容工具\n§b相思木：你們挖區塊都不開連點的嗎？",
+    "Allow the Fast Left Click to work in survival\nalso while holding tool items": "在生存當中開啟左鍵快速點擊將相容工具\n§b金合歡：你們挖區塊都不開連點的嗎？",
     "If enabled, then the Fast Block Placement feature will always remember\nthe orientation of the first block you place.\nWithout this, the orientation will only be remembered\nwith the Flexible Block Placement enabled and active.": "如果啟用，那麼 §6[方塊快速放置]§r 功能將始終記住你放置的第一個方塊的方向。\n如果停用，方向只會在啟用並啟動 §6[方塊靈活放置]§r 的情況下被記住",
     "If enabled, then the Flexible Block Placement status\nwill be remembered from the first placed block,\nas long as the use key (right click) is held down.\nBasically you don't have to keep holding all the flexible\nactivation keys to fast place all the blocks in the same orientation.": "如果啟用，在按住使用鍵（右鍵點擊）後，§6[方塊靈活放置]§r 狀態將從第一個放置的方塊開始記住朝向。\n不需要一直按住 §6[方塊靈活放置]§r 的快捷鍵即可將所有方塊快速放置在同一方向",
     "blockTypeBreakRestrictionWarn": "BlockBreakWarn | 破壞限制警告",
